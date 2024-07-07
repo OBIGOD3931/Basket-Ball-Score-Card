@@ -1,0 +1,281 @@
+/*body {
+    margin: 0;
+
+    position: relative;
+    width: 575px;
+    height: 385px;
+
+    background: #1B244A;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#home {
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+/*text-align: center;
+
+color: #EEEEEE;
+
+}
+
+#guest {
+        position: absolute;
+        width: 149px;
+        height: 36px;
+        left: 340px;
+        top: 68px;
+
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        /* identical to box height, or 90% */
+ /*       text-align: center;
+
+        color: #EEEEEE;
+}
+
+#score1 {
+
+        position: absolute;
+        width: 155px;
+        height: 120px;
+        left: 82px;
+        top: 125px;
+
+}
+
+#score2 {
+        position: absolute;
+        width: 155px;
+        height: 120px;
+        left: 337px;
+        top: 125px;
+}
+
+#num1 {
+        position: absolute;
+        width: 117px;
+        height: 120px;
+        left: 100px;
+        top: 125px;
+
+        font-family: 'Cursed Timer ULiL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 127px;
+        /* or 141% */
+ /*       text-align: center;
+
+        color: #F94F6D;
+        background-color: #080001;
+}
+
+#num2 {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+ /*   text-align: center;
+
+    color: #F94F6D;
+    background-color: #080001;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn-guest {
+        position: absolute;
+        width: 155px;
+        height: 45px;
+        left: 337px;
+        top: 271px;
+}
+
+.btn-home{
+position: absolute;
+width: 155px;
+height: 45px;
+left: 82px;
+top: 271px;
+}
+
+.score1 {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+}
+
+#home-btn-1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 341px;
+}
+
+#home-btn-2 {
+    
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 135px;
+    top: 341px;   
+}
+
+#home-btn-3 {
+    
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 188px;
+    top: 341px;
+
+}
+
+
+#guest-btn-1 {
+
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 337px;
+        top: 340px;
+
+
+}
+
+#guest-btn-2 {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 393px;
+        top: 339px;
+}
+
+#guest-btn-3 {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 447px;
+        top: 338px;
+}
+
+.btn {    background-color: #1B244A;
+    border-radius: 10%;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    padding: 5pt;
+    
+    }
+    
+#reset-btn {
+        position: absolute;
+       /* width: 120px;
+        height: 45px;*/
+/*        left: 207px;
+        top: 415px;
+        padding: 12px;
+   
+}
+
+.main-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+*/
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: 'Verdana', sans-serif;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.team {
+    text-align: center;
+}
+
+#home, #guest {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#num1, #num2 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    background-color: #080001;
+    color: #F94F6D;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #1B244A;
+    border-radius: 10%;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+#reset-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    top: 215px;
+}
+
+.main-container {
+    text-align: center;
+    
+}
